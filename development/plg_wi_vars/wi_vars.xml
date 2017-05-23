@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<extension version="3.0" type="plugin" group="system">
+
+	<name>wi_vars</name>
+	<author><%= author %></author>
+	<creationDate><%= grunt.template.today('yyyy-mm-dd') %></creationDate>
+	<copyright>Copyright © <%= grunt.template.today('yyyy') %>, <%= author %>, All Rights Reserved.</copyright>
+	<license><%= license %></license>
+	<authorEmail><%= author %></authorEmail>
+	<authorUrl><%= author_url %></authorUrl>
+	<version><%= version %></version>
+	<description><%= descr %></description>
+
+	<files>
+		<filename plugin="wi_vars">wi_vars.php</filename>
+		<filename>wi_vars_content.php</filename>
+		<folder>custom</folder>
+	</files>
+
+	<config>
+		<fields name="params">
+			<fieldset name="basic" label="Variables">
+
+			</fieldset>
+		</fields>
+	</config>
+
+</extension>
