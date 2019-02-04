@@ -5,7 +5,7 @@ It is even possible to access data of active menuitem using {{wi_var:menuitem:va
 A really basic if clause is possible too - but without nesting! Use {{wi_var:if:var_name}} stuff... {{wi_var:endif}}
 
 # Building
-Make sure [https://nodejs.org/en/download/](NodeJS) is installed, then download or clone the repository: `git clone https://github.com/jbjhjm/wi_vars.git`
+Make sure [NodeJS](https://nodejs.org/en/download/) is installed, then download or clone the repository: `git clone https://github.com/jbjhjm/wi_vars.git`
 
 Change to development directory and run `npm install`.
 
