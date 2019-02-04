@@ -1,6 +1,6 @@
 {
 	"name": "wi_vars",
-	"version": "1.0.0",
+	"version": "1.2.0",
 	"copyright": "Jannik Mewes / Wolf Interactive",
 
 	"author": "Jannik Mewes / Wolf Interactive",
@@ -12,9 +12,7 @@
 	"id": "wi_vars",
 	"camel": "wiVars",
 	"title": "Wolf Interactive - Variables plugin",
-	"descr": "This plugin allows access to several useful variables like {{wi_var:sitename}} and {{wi_var:baseURI}}.
-				It is now possible to access data of active menuitem using {{wi_var:menuitem:title|alias|myvar}}.
-			Works together with wi_menuitem_params! A really simple if clause is possible too - but without nesting! Use {{wi_var:if:var_name}} {{wi_var:endif}}",
+	"descr": "This plugin allows access to several useful variables like {{wi_var:sitename}} and {{wi_var:baseURI}}. It is now possible to access data of active menuitem using {{wi_var:menuitem:title|alias|myvar}}. Works together with wi_menuitem_params! A really simple if clause is possible too - but without nesting! Use {{wi_var:if:var_name}} {{wi_var:endif}}",
 
 	"devDependencies": {
 		"grunt": "~0.4.1",

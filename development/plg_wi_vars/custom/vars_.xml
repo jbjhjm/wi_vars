@@ -3,13 +3,6 @@
     <fields name="params">
         <fieldset name="basic">
 
-			<!-- <field name="var_jahreszeit" type="radio" class="btn-group" label="Jahreszeit"  default="sommer" filter="word" >
-				<option value="sommer">Sommer</option>
-				<option value="herbst">Herbst</option>
-				<option value="winter">Winter</option>
-				<option value="fruehling">Frühling</option>
-			</field> -->
-
             <!-- <field name="bgimage" type="media" label="Background Image" directory="backgrounds" /> -->
 
             <!-- <field name="headline" type="text" label="Headline" filter="raw"/> -->
