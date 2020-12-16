@@ -93,13 +93,13 @@ class plgSystemWi_vars extends JPlugin
 			$content = plgSystemWi_varsHelper::replaceVars($content);
 		}
 
-		$content = $this->_processContent($content,$vars);
+		$content = $this->_processContent($content);
 
 		return $content;
 
     }
 
-    protected function _processContent($content,$vars)
+    protected function _processContent($content)
     {
 
         $content = preg_split(
