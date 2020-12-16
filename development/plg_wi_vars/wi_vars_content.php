@@ -1,5 +1,5 @@
 <?php
-<%= phpbanner %>
+___phpbanner___;
 
 class plgContentWi_vars_content extends JPlugin {
 

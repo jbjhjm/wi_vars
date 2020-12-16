@@ -1,5 +1,5 @@
 <?php
-<%= phpbanner %>
+___phpbanner___;
 
 jimport( 'joomla.plugin.plugin');
 jimport( 'joomla.html.parameter');

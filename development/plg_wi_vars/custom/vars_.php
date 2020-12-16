@@ -1,5 +1,5 @@
 <?php
-<%= phpbanner %>
+___phpbanner___;
 
 // this file won't be overridden if plugin is updated.
 // use it for custom vars.

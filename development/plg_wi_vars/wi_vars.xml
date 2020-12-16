@@ -2,14 +2,14 @@
 <extension version="3.0" type="plugin" group="system" method="upgrade">
 
 	<name>wi_vars</name>
-	<author><%= author %></author>
-	<creationDate><%= grunt.template.today('yyyy-mm-dd') %></creationDate>
-	<copyright>Copyright © <%= grunt.template.today('yyyy') %>, <%= author %>, All Rights Reserved.</copyright>
-	<license><%= license %></license>
-	<authorEmail><%= author %></authorEmail>
-	<authorUrl><%= author_url %></authorUrl>
-	<version><%= version %></version>
-	<description><%= descr %></description>
+	<author>___author___</author>
+	<creationDate>___grunt.template.today('yyyy-mm-dd')___</creationDate>
+	<copyright>Copyright © ___grunt.template.today('yyyy')___, ___author___, All Rights Reserved.</copyright>
+	<license>___license___</license>
+	<authorEmail>___author___</authorEmail>
+	<authorUrl>___author_url___</authorUrl>
+	<version>___version___</version>
+	<description>___descr___</description>
 
 	<files>
 		<filename plugin="wi_vars">wi_vars.php</filename>
